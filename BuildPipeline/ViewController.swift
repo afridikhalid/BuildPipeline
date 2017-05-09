@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         
         
         
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,6 +24,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    @IBAction func buttonTapped(_ sender: Any) {
+        print("button did tapped")
+    }
+    
+    
 
 }
 
