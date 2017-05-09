@@ -30,6 +30,17 @@ class ViewController: UIViewController {
     }
     
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        let alert = UIAlertController(title: "Alert", message: "This is a test alert", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        
+        present(alert, animated: true, completion: nil)
+        
+        
+    }
+    
 
 }
 
